@@ -4,9 +4,8 @@ Jeevika is an offline-capable Progressive Web Application (PWA) designed to teac
 
 ## Project Structure
 
-The repository is divided into two primary directories:
+The repository contains the following primary directory:
 - `/web`: The source code for the Next.js/React frontend application.
-- `/docs-and-research`: Project specification documents and final Hackathon submission presentations.
 
 ## Technical Architecture & Tech Stack
 
