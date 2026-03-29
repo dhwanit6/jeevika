@@ -9,6 +9,9 @@ build/
 .next/
 out/
 
+# vercel
+.vercel/
+
 # env 
 .env
 .env.local
@@ -21,13 +24,6 @@ out/
 
 # mac
 .DS_Store
-
-# python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.env/
 
 # IDE
 .vscode/

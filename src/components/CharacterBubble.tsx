@@ -33,7 +33,7 @@ export default function CharacterBubble({
         >
           <div className="char-cutout">
             <img
-              src="/images/kavita.png"
+              src="/images/kavita.webp"
               alt="कविता"
               className="char-cutout-img"
               draggable={false}

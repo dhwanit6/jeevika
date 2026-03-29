@@ -140,7 +140,7 @@ export default function ScenePanel() {
       <div className="scene-visual">
         {/* Village panorama */}
         <img
-          src="/images/village.png"
+          src="/images/village.webp"
           alt="Indian village scene"
           className="scene-bg-img"
           loading="eager"

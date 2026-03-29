@@ -40,7 +40,7 @@ export default function AchievementPopup() {
             position: "absolute",
             top: 0,
             left: "50%",
-            background: "linear-gradient(135deg, var(--gold), #ffce44)",
+            background: "linear-gradient(135deg, #FFD700, #F5A623)",
             border: "2px solid #fff",
             boxShadow: "0 8px 32px rgba(192, 137, 28, 0.4)",
             borderRadius: "20px",
@@ -55,7 +55,7 @@ export default function AchievementPopup() {
           }}
         >
           <div style={{
-            background: "rgba(255,255,255,0.4)",
+            background: "#fff",
             borderRadius: "50%",
             width: "44px",
             height: "44px",

@@ -117,7 +117,7 @@ const _allKharifEvents: EventCard[] = [
   {
     id: "harvest-income",
     kind: "income",
-    icon: <img src="/images/asset_harvest.png" className="event-img" alt="Harvest" />,
+    icon: <img src="/images/asset_harvest.webp" className="event-img" alt="Harvest" />,
     titleHindi: "फ़सल बिकी — ₹12,000 आए",
     titleEnglish: "Harvest income",
     detailHindi: "रामू की धान बिकी। ये घर चलाने का पैसा है, बेटी।",
@@ -127,7 +127,7 @@ const _allKharifEvents: EventCard[] = [
   {
     id: "orders-advance",
     kind: "income",
-    icon: <img src="/images/asset_tailor.png" className="event-img" alt="Tailor" />,
+    icon: <img src="/images/asset_tailor.webp" className="event-img" alt="Tailor" />,
     titleHindi: "सिलाई का एडवांस — ₹2,500",
     titleEnglish: "Tailoring advance",
     detailHindi: "दो औरतों ने ब्लाउज़ के पैसे दिए। ये काम की कमाई है।",
@@ -137,7 +137,7 @@ const _allKharifEvents: EventCard[] = [
   {
     id: "school-fee",
     kind: "expense",
-    icon: <img src="/images/asset_school.png" className="event-img" alt="School" />,
+    icon: <img src="/images/asset_school.webp" className="event-img" alt="School" />,
     titleHindi: "गुड़िया की फ़ीस — ₹1,500",
     titleEnglish: "School fee",
     detailHindi: "बेटी को पढ़ाना है तो फ़ीस भरनी पड़ेगी। घर का ख़र्चा।",

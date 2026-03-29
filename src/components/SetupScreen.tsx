@@ -17,7 +17,7 @@ export default function SetupScreen() {
       {/* Kavita intro — compact horizontal */}
       <div className="setup-intro">
         <img
-          src="/images/kavita.png"
+          src="/images/kavita.webp"
           alt="Kavita"
           className="setup-kavita-img"
           draggable={false}

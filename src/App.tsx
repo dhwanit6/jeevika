@@ -13,8 +13,9 @@ import CrisisScreen from "./components/CrisisScreen";
 import OTPScreen from "./components/OTPScreen";
 import ReportScreen from "./components/ReportScreen";
 import AchievementPopup from "./components/AchievementPopup";
-import VoiceButton from "./components/VoiceButton";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { useNarration } from "./hooks/useNarration";
+import { useEffect } from "react";
 
 const screenComponents: Record<string, React.ComponentType> = {
   splash: SplashScreen,
@@ -50,6 +51,23 @@ const walletBarScreens = new Set<Screen>([
 
 export default function App() {
   const screen = useGameStore((s) => s.screen);
+  const { speak, stop } = useNarration();
+
+  // Autoplay handler and iOS context unlocker
+  useEffect(() => {
+    const unlockAudio = () => {
+      document.removeEventListener("touchstart", unlockAudio);
+      document.removeEventListener("click", unlockAudio);
+    };
+    document.addEventListener("touchstart", unlockAudio, { once: true });
+    document.addEventListener("click", unlockAudio, { once: true });
+
+    speak(screen);
+
+    return () => {
+      stop();
+    };
+  }, [screen, speak, stop]);
 
   const ScreenComponent = screenComponents[screen];
   const showScene = scenePanelScreens.has(screen);
@@ -81,9 +99,6 @@ export default function App() {
               </motion.div>
             </AnimatePresence>
           </div>
-
-          {/* Floating voice narration button — plays local AI MP3 */}
-          <VoiceButton screenKey={screen} />
         </section>
       </main>
     </ErrorBoundary>

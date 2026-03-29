@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useGameStore } from "../store/gameStore";
 import { Gamepad2, Coins, ShieldCheck } from "lucide-react";
 import { ReactNode } from "react";
-import kavitaBg from "../images/kavita.jpeg";
+import kavitaBg from "../images/kavita.webp";
 
 export default function SplashScreen() {
   const setScreen = useGameStore((s) => s.setScreen);
@@ -63,7 +63,7 @@ export default function SplashScreen() {
         transition={{ delay: 0.4, type: "spring", stiffness: 180, damping: 14 }}
       >
         <img
-          src="/images/kavita.png"
+          src="/images/kavita.webp"
           alt="Kavita"
           className="splash-kavita-img"
           draggable={false}
