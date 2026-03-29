@@ -33,3 +33,5 @@ npm run build
 - `src/styles.css`: visual system and responsive UI
 - `public/manifest.webmanifest`: installable shell metadata
 - `public/sw.js`: basic offline caching
+
+ 

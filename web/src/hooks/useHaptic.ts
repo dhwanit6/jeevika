@@ -23,3 +23,4 @@ export function useHaptic() {
     success: () => vibrate([30, 20, 60]),
   };
 }
+ 

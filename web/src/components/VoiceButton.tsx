@@ -84,3 +84,4 @@ export default function VoiceButton({ screenKey, autoSpeak = true }: Props) {
     </motion.button>
   );
 }
+ 

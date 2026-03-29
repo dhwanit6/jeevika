@@ -63,3 +63,5 @@ No server-side authentication is enforced for this prototype. To facilitate seam
 ## Additional Notes
 
 The source code provided in the `/web` directory reflects the finalized state of the codebase ahead of the March 29, 2026, deadline. A `v1.0.0-ncfe-submission` tag designates the stable release for evaluation.
+
+ 

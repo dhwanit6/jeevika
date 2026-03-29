@@ -54,3 +54,4 @@ function getSeasonLabel(screen: string): { icon: ReactNode; text: string } | nul
       return null;
   }
 }
+ 
