@@ -1,0 +1,23 @@
+{
+  "name": "Jeevika Prototype",
+  "short_name": "Jeevika",
+  "description": "A voice-first financial literacy game prototype for rural women in India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8efe1",
+  "theme_color": "#7b3f1d",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
